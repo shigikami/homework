@@ -7,7 +7,8 @@ router.delete('/delate',
     async (req: Request, res: Response) => {
         try {
             const id = req.body.id
-            const peple = await classroommodel.deleteOne({_id:id})
+            const peple = await classroommodel.deleteOne({ _id: id })
+            console.log(peple);
 
             res.send("delate succes")
         } catch (error) {

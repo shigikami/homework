@@ -18,4 +18,4 @@ router.get(
         }
     }
 )
-export {router as adduser}
+export { router as adduser }

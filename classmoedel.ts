@@ -6,7 +6,7 @@ const classschema = new mongoose.Schema(
         lastname: { type: String },
         gender: [{ type: String }],
         dateofbirth: { type: Date },
-        clsaaroom: { type: String }
+        classroom: { type: String }
     }, {
     collection: "classroommodel"
 }
